@@ -1,0 +1,17 @@
+
+{
+  "name": "sistema-banco",
+  "version": "1.0.0",
+  "description": "Sistema bancário desenvolvido em TypeScript e POO",
+  "main": "dist/Main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/Main.js",
+    "dev": "ts-node Main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.0"
+  }
+}
